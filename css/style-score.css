@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=Shadows+Into+Light&display=swap');
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#txt1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+
+.highlights {
+    margin: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+
+    margin: 20px;
+    padding: 10px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 {
+    background-color: rgb(255, 173, 31);
+    border: 3px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 50%);
+}
+
+#box2 {
+    background-color: rgb(67, 255, 111);
+    border: 3px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 50%);
+}
+
+
+#box3 {
+    background-color: rgb(108, 172, 255);
+    border: 3px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 50%);
+
+}
